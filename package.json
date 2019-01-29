@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --prod"
+    "postinstall": "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
@@ -27,7 +27,7 @@
     "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
-    "typescript": "~3.2.2",
+    "typescript": "~3.2.4",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
