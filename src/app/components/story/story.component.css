@@ -1,0 +1,22 @@
+.story-component-page {
+    height: 100vh;
+}
+
+.story-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid #d2b48c;
+    border-radius: 7px;
+    overflow-y: auto;
+}
+
+.encounter-option {
+    cursor: pointer;
+    background-color: rgb(236, 252, 250);
+    border-color: black;
+
+}
+
+.options-bar {
+    background-color: #d2b48c;
+    border-top: 2px solid rgb(165, 237, 247);
+}
